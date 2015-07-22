@@ -48,7 +48,7 @@ void loop(void)
 
   temperature2 = MeasTemperature_2438(DS2438_address2);
 
-  temp2 = temperature2;
+  temp2 = temperature2 * 100;
 
   Serial.println();
   Serial.print("  Data T2 = ");
@@ -58,7 +58,7 @@ void loop(void)
 
   voltage2 = MeasADC(DS2438_address2, V_AD);
 
-  volt2 = voltage2;
+  volt2 = voltage2 * 100;
 
   Serial.println();
   Serial.print("  Data V2 = ");
