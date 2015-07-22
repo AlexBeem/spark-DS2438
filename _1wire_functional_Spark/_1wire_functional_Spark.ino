@@ -1,14 +1,11 @@
 // This #include statement was automatically added by the Spark IDE.
 #include "OneWire/OneWire.h"
 
-// OneWire DS18S20, DS18B20, DS1822, DS2438 Temperature Example
+// copyright 2015 Adam Koeppel
 //
-// https://github.com/Hotaman/OneWireSpark
+// some source from https://github.com/Hotaman/OneWireSpark
 //
-// Thanks to all who have worked on this demo!
-// I just made some minor tweeks for the spark core
-// and added support for the DS2438 battery monitor
-// 6/2014 - Hotaman
+// some more source from http://www.phanderson.com/arduino/ds2438_1.html
 
 // Define the pins we will use
 int ow = D3;    // put the onewire bus on D3 (or 3 for a regular Arduino)
